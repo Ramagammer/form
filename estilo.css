@@ -1,13 +1,13 @@
 
 
-* {
-	margin: 0;
-	padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
 
 
-body {
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -109,12 +109,12 @@ body {
         } 
 
         .box-3 {
-        	margin-top: 40px;
-        	margin-bottom: 20px;
+            margin-top: 40px;
+            margin-bottom: 20px;
         }
 
         .logo-text-0 {
-        	font-family: 'EB Garamond', serif;
+            font-family: 'EB Garamond', serif;
             font-size: 20px;
             display: flex;
             justify-content: center;
@@ -122,11 +122,11 @@ body {
             color: #333;
             overflow: hidden;
             white-space: nowrap; 
-            animation: typing 4s steps(20) 0s forwards, blink-caret 0.5s 0s 3 forwards; 
+            animation: typing 2s steps(15) 0s forwards, blink-caret 0.5s 0s 2 forwards; 
         }       
 
         .logo-text-1 {
-        	font-family: 'Agbalumo', sans-serif;
+            font-family: 'Agbalumo', sans-serif;
             font-size: 30px;
             display: flex;
             justify-content: center;
@@ -134,7 +134,7 @@ body {
             color: #333;
             overflow: hidden; 
             white-space: nowrap; 
-            animation: typing 3s steps(20) 2.5s forwards, blink-caret 0.5s 2.9s 5 forwards;
+            animation: typing 3s steps(20) 2.5s forwards, blink-caret 0.5s 3s 5 forwards;
             visibility: hidden; 
         }
 
@@ -157,5 +157,86 @@ body {
             50% {
                 border-right: 2px solid #333;
             }
-        }        
+        }     
 
+
+        .ok {
+            text-align: center;
+            width: 100%;
+            padding-bottom: 12px;
+            background-color: #1e6;
+            color: #fff;
+            display: flex;
+        }
+
+        .bad {
+            text-align: center;
+            width: 100%;
+            padding-bottom: 12px;
+            background-color: #a22;
+            color: #fff;
+            display: flex;
+            margin-top: 100px;
+        } 
+
+        .principal-1 {
+            background-color: #f0f0f0;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }     
+
+        .redirigir {
+            width: 100%;
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #45C9C7;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .redirigir:hover {
+            background-color: #fff;
+            color: #45C9C7;
+            border: 2px solid #45C9C7; 
+        }
+
+        .logo-text-2 {
+            font-family: 'EB Garamond', serif;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            color: #333;
+            overflow: hidden;
+            white-space: nowrap; 
+            animation: typing 2s steps(20) 0s forwards, blink-caret 0.5s 0.5s 0 forwards; 
+        }       
+
+        .logo-text-3 {
+            font-family: 'Agbalumo', sans-serif;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            color: #333;
+            overflow: hidden; 
+            white-space: nowrap; 
+            animation: typing 3s steps(20) 2.5s forwards, blink-caret 0.5s 1.7s 5 forwards;
+            visibility: hidden; 
+        }
+
+    @media only screen and (max-width: 600px) {
+    .principal {
+        padding: 40px;
+        width: 100%;
+    }
+
+}
