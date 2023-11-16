@@ -37,8 +37,8 @@
             content: "";
             position: absolute;
             bottom: 0;
-            left: 61%;
-            width: 61%;
+            left: 70%;
+            width: 70%;
             height: 2px;
             background-color: #45C9C7;
             transform: translateX(-100%);
@@ -53,8 +53,8 @@
             content: "";
             position: absolute;
             bottom: 0;
-            left: 42%;
-            width: 42%;
+            left: 47%;
+            width: 47%;
             height: 2px;
             background-color: #45C9C7;
             transform: translateX(-100%);
@@ -69,8 +69,8 @@
             content: "";
             position: absolute;
             bottom: 0;
-            left: 37%;
-            width: 37%;
+            left: 43%;
+            width: 43%;
             height: 2px;
             background-color: #45C9C7;
             transform: translateX(-100%);
@@ -236,7 +236,30 @@
     @media only screen and (max-width: 600px) {
     .principal {
         padding: 40px;
+        width: 70%;
+    }
+    
+    .box-1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .input-container-0::after,
+    .input-container-1::after,
+    .input-container-2::after {
+            left: 100%;
+            width: 100%;
+    }
+
+    .box-3 {
         width: 100%;
     }
 
-}
+    .principal-1 h1 {
+         width: 100%;
+         text-align: center;
+    }
+    
+
+
+
